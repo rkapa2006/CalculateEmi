@@ -1,0 +1,132 @@
+	body {
+				font-family:arial,helvetica,sans-serif;
+				font-size:12px;
+				background:#F0F0F0;
+				
+				margin:0;
+				padding-top:10px;
+				height:100%;
+				}
+			
+			#wrapper {
+				width:900px;
+				margin:0px auto;
+				border:1px solid #bbb;
+				padding:10px;
+			}
+			
+			.center {
+  			  		margin-left: auto;
+   			 		margin-right: auto;
+   			 		width: 95%;
+   			 		display:block;
+			}
+			
+			.left {
+  			  		margin-left: 0px;
+   			 		margin-right: 0px;
+   			 		padding-bottom:5px;
+					height:20px;
+					width:98%;
+					font-style:bold;
+					font-size:1.2em;
+					color:white;
+					display:block;
+   			 		text-align: left;
+   			 		background:blue;
+			}
+			
+			 table {
+  				 padding: 10px;
+			}
+			
+			div#details th {
+    			background-color: green;
+    			color: white;
+    			text-align:right;
+			}
+			
+			td {
+				padding:5px;
+			}
+			
+			div#details td {
+				text-align:right;
+			}
+			
+			 table {
+				width: 98%;
+				border-collapse: collapse;
+				height:98%;
+				padding:10px;
+			}
+			
+			div.right {
+				margin-left: auto;
+   			 	margin-right: auto;
+				display:block;
+				width: 500px;
+			}
+			
+			#header {
+   			 		margin-right: auto;
+   			 		margin-left:5px;
+   			 		margin-bottom:10px;
+   			 		
+					height:15px;
+					
+					width:98%;
+					
+					font-style:bold;
+					font-size:1.5em;
+					
+					color:white;
+					display:block;
+   			 		text-align: center;
+   			 		background:red;
+			}
+			
+			#content-main {
+				margin-left: auto;
+   			 	margin-right: auto;
+   			 	margin-top:10px;
+   			 	width: 98%;
+				display:block;
+				background:lightgray;
+				padding:10px;
+				
+				font-style:bold;
+				font-size:1.2em;
+			}
+			
+			#details {	
+				margin-left: auto;
+   			 	margin-right: auto;
+   			 	width: 98%;
+				display:block;
+				padding:10px;
+				
+				font-style:bold;
+				font-size:1.2em;
+			}
+			
+			.borders {
+				padding:10px;
+				border:1px solid #bbb;
+				float:left;
+			}
+			
+			#bottom {
+					margin-left: auto;
+   			 		margin-right: auto;
+					width:98%;
+					height:20px;
+					position:absolute;
+					bottom:0;
+					left:0;
+					background:lightgray;
+					text-align:center;
+					padding:10px;
+			}
+			
+			

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Fixed Rate Mortgage Calculator</title>
+		<link rel="stylesheet" type="text/css" href="mortgage.css"></link>
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+		<script src="mortgage.js"></script>
+	</head>
+	<body>
+	<div class="center borders" id="header">Mortgage Calculator (Fixed Rate)</div>
+		<div class="center" id="content-main">
+				<table>
+					<tr>
+						<td><label for="mortgageAmount">Loan Amount($): </label></td>
+						<td><input id="mortgageAmount" type="number"></input></td>
+						<td>(Amount of loan needed in $)</td>
+					</tr>
+				
+					<tr>
+						<td><label for="mortgageCost">Interest Rate(%): </label></td>
+						<td><input id="mortgageCost" type="number"></input></td>
+						<td>(Percentage annual rate of interest)</td>
+					</tr>
+					
+					<tr>
+						<td><label for="mortgageTerm">Loan Term(#):</label></td>
+						<td><input id="mortgageTerm" type="number"></input></td>
+						<td>(Number of months needed to clear the loan)</td>
+					</tr>
+					<tr>
+						<td/><td><input id="compute" type="button" value="Compute">&nbsp;&nbsp;<input id="clear" type="button" value="clear"/><td>
+					</tr>
+				</table>
+				
+				<div id="details"></div>
+			</div>
+	</body>
+</html>
